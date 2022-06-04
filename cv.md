@@ -58,9 +58,6 @@ function fizzbuzz(n)
 
 ```
 
-## Experience:
-******
-
 ## Education:
 ******
 * Nanjing Tech University 
