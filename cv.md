@@ -67,7 +67,7 @@ function fizzbuzz(n)
 * Udemy 
 * FreeCodeCamp
 * CS50
-* [JavaScript] (https://javascript.info/)
+* JavaScript ([https://javascript.info/](https://javascript.info/))
 * w3schools
 * LinkedIn Learning
 * geeksforgeeks
