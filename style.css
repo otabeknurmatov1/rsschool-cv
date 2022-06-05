@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Navbar  */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.nav-logo {
+    font-weight: 500;
+}
+
+.nav-logo__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-item__link {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Main  */
+
+.main {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.sm-bar {
+    position: fixed;
+    display: none;
+}
+
+/* About section  */
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    flex-wrap: wrap;
+}
+
+.about-info {
+    width: 40%;
+    margin-right: 30px;
+}
+
+.about__name {
+    font-size: 48px;
+    line-height: 60px;
+    color: #222;
+}
+
+.about__wp, .about__info {
+    color: #515151;
+}
+
+.about__wp {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.about__info {
+    font-size: 16px;
+    width: 83%;
+    line-height: 25px;
+}
+
+.about__btn {
+    padding: 18px 24px;
+    font-size: 16px;
+    margin-top: 30px;
+    background-color: #4593ff;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.about__btn:hover {
+    cursor: pointer;
+}
+
+.about__photo {
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 100px;
+    box-shadow: 39px 29px 10px -10px #0003;
+}
+
+/* Skills section  */
+.skills, .skills-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills {
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+}
+
+.skills__h {
+    margin-bottom: 50px;
+}
+
+.skills-cards {
+    flex-direction: row; 
+    justify-content: space-around; 
+    width: 100%;
+    text-align: center;
+}
+
+.skills-card {
+    width: 200px;
+    height: 200px;
+    background-color: #4493FF;
+    padding: 6px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills-card__h {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.circle-wrap {
+    border: 30px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.progress-circle {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    transition: all 500ms ease-in;
+}
+
+.html_pb {
+    background: radial-gradient(#4493FF 50%, transparent 51%),
+    conic-gradient(transparent 0deg 320deg, #ffffff 220deg 360deg),
+    conic-gradient(#ffa200 0deg, #ffa200 360deg );
+}
+
+.css_pb {
+    background: radial-gradient(#4493FF 50%, transparent 51%),
+    conic-gradient(transparent 0deg 270deg, #ffffff 220deg 360deg),
+    conic-gradient(#ffa200 0deg, #ffa200 360deg );
+}
+
+.js_pb {
+    background: radial-gradient(#4493FF 50%, transparent 51%),
+    conic-gradient(transparent 0deg 180deg, #ffffff 190deg 360deg),
+    conic-gradient(#ffa200 0deg, #ffa200 360deg );
+}
+
+.py_pb {
+    background: radial-gradient(#4493FF 50%, transparent 51%),
+    conic-gradient(transparent 0deg 20deg, #ffffff 40deg 360deg),
+    conic-gradient(#ffa200 0deg, #ffa200 360deg );
+}
+
